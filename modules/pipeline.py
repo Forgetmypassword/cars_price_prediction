@@ -15,9 +15,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 
-# Укажем путь к файлам проекта:
-# -> $PROJECT_PATH при запуске в Airflow
-# -> иначе - текущая директория при локальном запуске
+
 path = os.environ.get('PROJECT_PATH', '.')
 
 
