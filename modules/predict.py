@@ -28,7 +28,6 @@ def collect_preds():
 
 
 def predict():
-    # <YOUR_CODE>
     return collect_preds().to_csv('../airflow_hw/data/predictions/predictions.csv', index=False)
 
 
